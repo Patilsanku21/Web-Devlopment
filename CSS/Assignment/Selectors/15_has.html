@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>has </title>
+    <style> 
+        .card:has(p){
+            border:2px solid red;
+        }
+        .Box:has(h1){
+            border:2px solid pink;
+        }
+        .book:has(h2){
+            border: 2px solid black;
+            color: pink;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <p>Error Message</p>
+    </div>
+    <div class="card">
+        <p> sucsess</p>
+    </div>
+    <div class="Box"> 
+        <h1> hello</h1>
+    </div>
+    <div class="book">
+        <h2> Good Morning</h2>
+    </div>
+</body>
+</html>
