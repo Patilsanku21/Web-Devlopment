@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>SweetCrust Bakery | Baked Fresh</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-page="home">
+    <div class="navslot"></div>
+    <header class="hero">
+        <div class="wrap hero-content">
+            <span class="eyebrow">Crafted daily in Brooklyn</span>
+            <h1>Baked Fresh.<br>Made with Love.</h1>
+            <p>Delicious cakes, pastries and treats crafted fresh for every special moment.</p><a class="btn"
+                href="menu.html">Order Now</a><a class="btn ghost" href="#bestsellers">Explore Menu</a>
+        </div>
+    </header>
+    <main>
+        <section class="section" id="bestsellers">
+            <div class="wrap">
+                <div class="title"><span class="eyebrow">Most loved</span>
+                    <h2>Our Best Sellers</h2>
+                    <p>Little luxuries, big smiles. Meet the bakes our neighbours return for.</p>
+                </div>
+                <div class="grid" id="home-products"></div>
+            </div>
+        </section>
+        <section class="section alt">
+            <div class="wrap split"><img
+                    src="https://images.unsplash.com/photo-1559620192-032c4bc4674e?auto=format&fit=crop&w=900&q=80"
+                    alt="Celebration cake">
+                <div><span class="eyebrow">For every occasion</span>
+                    <h2>Special cakes, beautifully personal</h2>
+                    <p>From a candle-lit birthday to an all-out wedding, every SweetCrust cake is a delicious
+                        centrepiece made for your moment.</p>
+                    <ul class="checklist">
+                        <li>Made to order with premium ingredients</li>
+                        <li>Personal messages and hand-finished details</li>
+                        <li>Delivered with care across the city</li>
+                    </ul><a class="btn" href="custom-cake.html">Create your cake</a>
+                </div>
+            </div>
+        </section>
+        <section class="section categories">
+            <div class="wrap">
+                <div class="title"><span class="eyebrow">Something for everyone</span>
+                    <h2>Freshly baked today</h2>
+                </div>
+                <div class="grid three"><a class="category" href="menu.html"><img
+                            src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80"
+                            alt="Pastries"><b>Pastries</b></a><a class="category" href="cakes.html"><img
+                            src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80"
+                            alt="Cakes"><b>Celebration Cakes</b></a><a class="category" href="menu.html"><img
+                            src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=700&q=80"
+                            alt="Donuts"><b>Sweet treats</b></a></div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="wrap offer"><span class="eyebrow">Limited weekend offer</span>
+                <h2>Weekend Sweet Deal — 20% OFF Selected Cakes</h2>
+                <p>Make the weekend extra sweet. Offer ends soon.</p>
+                <div class="timer" id="timer"></div><a class="btn ghost" href="cakes.html">Shop offer cakes</a>
+            </div>
+        </section>
+        <section class="section alt">
+            <div class="wrap">
+                <div class="title"><span class="eyebrow">Why SweetCrust</span>
+                    <h2>Good ingredients make great memories</h2>
+                </div>
+                <div class="grid three">
+                    <div class="review">
+                        <h3>Fresh, always</h3>
+                        <p>Our ovens start early so your treats never spend a day waiting.</p>
+                    </div>
+                    <div class="review">
+                        <h3>Made with heart</h3>
+                        <p>Small batches and patient hands make every bite feel special.</p>
+                    </div>
+                    <div class="review">
+                        <h3>Joy delivered</h3>
+                        <p>Carefully boxed and delivered ready to brighten someone’s day.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="wrap">
+                <div class="title"><span class="eyebrow">Kind words</span>
+                    <h2>Our customers say it best</h2>
+                </div>
+                <div class="grid three">
+                    <div class="card review"><q>The red velvet cake was absolute perfection — elegant, moist and gone in
+                            minutes.</q>
+                        <p>★★★★★<br><b>— Maya R.</b></p>
+                    </div>
+                    <div class="card review"><q>SweetCrust made our anniversary cake look like art and taste even
+                            better.</q>
+                        <p>★★★★★<br><b>— Daniel & Priya</b></p>
+                    </div>
+                    <div class="card review"><q>The croissants are my Saturday ritual. Worth waking up early for.</q>
+                        <p>★★★★★<br><b>— Elise T.</b></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section alt">
+            <div class="wrap">
+                <div class="title">
+                    <h2>A peek inside our bakery</h2>
+                </div>
+                <div class="gallery"><img
+                        src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=700&q=80"
+                        alt="Bakery display"><img
+                        src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=700&q=80"
+                        alt="Fresh pastries"><img
+                        src="https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=700&q=80"
+                        alt="Cupcakes"></div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="wrap newsletter">
+                <h2>Join the Sweet List</h2>
+                <p>New flavours, special offers, and a little baking joy in your inbox.</p>
+                <form onsubmit="event.preventDefault();toast('You are on the sweet list!');this.reset()"><input
+                        class="input" required type="email" placeholder="Your email address"><button
+                        class="btn">Subscribe</button></form>
+            </div>
+        </section>
+        <section class="section alt">
+            <div class="wrap faq">
+                <div class="title">
+                    <h2>Frequently asked questions</h2>
+                </div>
+                <details>
+                    <summary>How far ahead should I order a custom cake?</summary>
+                    <p>We recommend 3–5 days for custom cakes and two weeks for wedding cakes.</p>
+                </details>
+                <details>
+                    <summary>Do you offer dietary options?</summary>
+                    <p>Yes. Contact us for vegan, eggless and gluten-conscious options.</p>
+                </details>
+                <details>
+                    <summary>Where do you deliver?</summary>
+                    <p>We deliver across Brooklyn and nearby neighbourhoods.</p>
+                </details>
+            </div>
+        </section>
+    </main>
+    <div class="footslot"></div>
+    <script src="js/script.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', () => { $('#home-products').innerHTML = [0, 3, 5, 15].map(card).join('') })</script>
+</body>
+
+</html>
