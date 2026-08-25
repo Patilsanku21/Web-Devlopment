@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="./style (1).css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanskruti Patil | Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">Sanskruti Patil</div>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="navMenu">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <img src="./WhatsApp Image 2026-08-20 at 2.29.22 PM.jpeg" alt="Sanskruti Patil" class="profile-photo">
+
+        <div class="hero-text">
+            <span class="eyebrow">Welcome to my portfolio</span>
+            <div class="name">
+                <h1 class="hero-heading"><span>Hii, I Am Sanskruti Patil</span></h1>
+            </div>
+            <div class="p">
+                <p>I'm a Web Developer &amp; Designer who turns ideas into clean, working websites.</p>
+            </div>
+            <div class="btn-wrapper">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#resume" class="bt">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Icons -->
+    <div class="Acount-Activity">
+        <a href="mailto:sanskrutip438@gmail.com" aria-label="Email">
+            <img src="./03_Gmail.jfif" width="42" height="42" alt="Gmail">
+        </a>
+        <a href="https://github.com/Patilsanku21" target="_blank" aria-label="GitHub">
+            <img src="./02.github.png" width="42" height="42" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/sanskruti-patil-7a02a93a9/" target="_blank" aria-label="LinkedIn">
+            <img src="./011Linkdin.jfif" width="42" height="42" alt="LinkedIn">
+        </a>
+    </div>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <h1 class="section-title">My Skills</h1>
+        <div class="underline"></div>
+
+        <div class="skills-container">
+            <div class="skill-card">
+                <img src="./html.jfif" alt="HTML">
+                <p>HTML</p>
+            </div>
+            <div class="skill-card">
+                <img src="./css logo.jfif" alt="CSS">
+                <p>CSS</p>
+            </div>
+            <div class="skill-card">
+                <img src="./javascript.png" alt="JavaScript">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <img src="./Boostrap.png" alt="Bootstrap">
+                <p>Bootstrap</p>
+            </div>
+            <div class="skill-card">
+                <img src="./sql.jfif" alt="SQL">
+                <p>SQL</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects-section" id="projects">
+        <h1 class="section-title">My Projects</h1>
+        <div class="underline"></div>
+
+        <div class="grid">
+            <div class="card">
+                <img src="./sweetcrust Screen shot.PNG" alt="Sweet Crust Website">
+                <div class="card-body">
+                    <h2>Sweet Crust Website</h2>
+                    <p>A clean, responsive bakery website with menu showcase and online ordering, built with a
+                        mobile-first approach.</p>
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JS</span>
+                        <span class="tag">Bootstrap</span>
+                    </div>
+                    <a href="#" class="button-1">View Project</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./Amul Ice ss.PNG" alt="Inventory Management">
+                <div class="card-body">
+                    <h2>Inventory Management</h2>
+                    <p>A desktop application for managing an ice cream parlor's inventory, allowing tracking of
+                        stock levels, flavors, and supplies through a simple, easy-to-use interface.</p>
+                    <div class="tags">
+                        <span class="tag">C#</span>
+                        <span class="tag">.Net</span>
+                    </div>
+                    <a href="#" class="button-1">View Project</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./sarthi.PNG" alt="Sarthi Academy Management System">
+                <div class="card-body">
+                    <h2>Sarthi Academy Management System</h2>
+                    <p>A desktop application built for Sarthi Academy to manage student records, courses, and
+                        admissions through a simple, easy-to-use interface.</p>
+                    <div class="tags">
+                        <span class="tag">C#</span>
+                        <span class="tag">.Net</span>
+                    </div>
+                    <a href="#" class="button-1">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">Let's Connect And Work Together</p>
+
+        <div class="contact-box">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <p><span>Email:</span> sanskrutip438@gmail.com</p>
+                <p><span>Phone:</span> 8767725107</p>
+                <p><span>Location:</span> Karad, Maharashtra, India</p>
+            </div>
+
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2026 Sanskruti Patil. All Rights Reserved.
+    </footer>
+
+    <script>
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('open');
+        });
+        navMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => navMenu.classList.remove('open'));
+        });
+    </script>
+</body>
+
+</html>
